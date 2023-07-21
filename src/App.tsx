@@ -14,13 +14,11 @@ export const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="px-5">
       <header>
         <h1>Github Commits Clone</h1>
       </header>
       <main>
-        CommitTimeline
-
         {commitHistory.map((history, i) => <CommitTimeline {...history} key={i} />)}
       </main>
     </div>
