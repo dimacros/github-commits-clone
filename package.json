@@ -1,0 +1,24 @@
+{
+  "name": "github-commits-clone",
+  "version": "1.0.0",
+  "description": "The goal of this test will be to create an app that shows **git commit history** on the same project you are working on. You need to do well-stated and defined commits while working on this test and regularly push them up.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/vite-react": "^2.0.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6"
+  }
+}
